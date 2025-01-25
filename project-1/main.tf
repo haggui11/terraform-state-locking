@@ -19,4 +19,4 @@ terraform {
         region     = "eu-central-1"
         dynamodb_table = "dynamodb-state-locking"
     }
-}a
+}
