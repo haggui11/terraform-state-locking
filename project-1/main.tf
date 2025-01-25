@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "ec2_example" {
-    ami = "ami-0767046d1677be5a0"
+    ami = "ami-0ac4dfaf1c5c0cce9"
     instance_type = "t2.micro"
     tags = {
       Name = "EC2 Instance with remote state"
